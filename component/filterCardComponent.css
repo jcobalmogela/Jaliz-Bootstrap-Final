@@ -1,0 +1,37 @@
+.filterCard {
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0);
+   
+
+  }
+
+  .filterCardImg {
+    border-radius: 12px 12px 12px 12px;
+    width: 100%;
+    
+  }
+
+  .card-details p {
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
+  .card-details img{
+    height: 20px;
+  }
+  .card-details-img{
+    height: 250px;
+  }
+  .discount,.rate-reviews{
+    color: #ED702D!important;
+  }
+  .rate{
+    color: #FFBB00!important;
+  }
+  .deposit,.card-details p{
+    color: #A5A7AF;
+  }
+
+  .stars svg {
+    width: 20px;
+    fill: #FFBB00;
+  }

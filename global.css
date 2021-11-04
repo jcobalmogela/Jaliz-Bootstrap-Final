@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
   
   }
   body{
-    position: relative;
+   
   }
   
   @font-face {
@@ -20,12 +20,24 @@
 main{
     height: auto;
     background-color:white;
+   
 }
 header{
     height: 80vh;
     border-radius: 40px;
     background-color:#0000000D ;
 }
+.ads{
+  object-fit: contain;
+ background-image: url('./img/Jal-assets/Pictures/125377194.jpg');
+ background-size: cover;
+ height: 200px;
+ background-position: center;
+ color: white;
+ border-radius: 20px;
+}
+
+
 .menu-title,.menu-btn{
   padding: 0;
   margin: 0;
