@@ -1,0 +1,44 @@
+footer {
+    background-color: #F5F4F4CF!important;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+  }
+  footer h5{
+    color: #707070;
+    text-align: center;
+  }
+  .footer-hr{
+  
+    margin: auto;
+    background: #9E9E9E;
+    height: 1px;
+   
+    border: 1px solid #9E9E9E;
+  }
+  .quickLinks li{
+    list-style: none;
+    color: #9E9E9E;
+    font-size: 13pt;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .footer-logo{
+    width: 180px;
+  }
+  .copyright{
+    background: #9A3E0C!important;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom:0;
+  }
+  .scl{
+    color: #ADADAD;
+    font-size: 25px;
+  }
+  .payment img{
+    width: 120px;
+  }

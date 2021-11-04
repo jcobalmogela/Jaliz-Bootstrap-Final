@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+  
+  }
+  body{
+    position: relative;
+  }
+  
+  @font-face {
+    font-family: 'Larsseit';
+    src: url('../img/Jal-assets/Fonts/Larsseit.ttf');
+  }
+  /* nav {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+  } */
+/* mainContainer */
+main{
+    height: auto;
+    background-color:white;
+}
+header{
+    height: 80vh;
+    border-radius: 40px;
+    background-color:#0000000D ;
+}
+.menu-title,.menu-btn{
+  padding: 0;
+  margin: 0;
+  color: #3A3A3A;
+}
+.menu-btn{
+  color:#ED702D ;
+}
+
