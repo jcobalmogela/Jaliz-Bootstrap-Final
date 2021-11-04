@@ -1,48 +1,54 @@
 .filterCard {
-    border-radius: 12px 12px 12px 12px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    padding: 0.5rem;
-    background-color: white;
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0);
+  border-radius: 12px 12px 12px 12px;
+}
 
-    
-   
+.filterCardImg {
+  border-radius: 12px 12px 12px 12px;
+}
+.Inn-name{
+  color: #1d1d1d!important;
+  font-weight: 500;
+}
 
-  }
+.card-details p {
+  margin-bottom: 0 !important;
+  padding: 0;
+}
 
-  .filterCardImg {
-    border-radius: 12px 12px 12px 12px;
-    width: 100%;
-    
-  }
-  .Inn-name{
-    color: #000000!important;
-    font-weight: bold;
-    
-  }
+.card-details img {
+  height: 20px;
+}
 
-  .card-details p {
-    margin-bottom: 0 !important;
-    padding: 0;
-  }
-  .card-details img{
-    height: 20px;
-  }
-  .card-details-img{
-    height: 250px;
-  }
-  .discount,.rate-reviews{
-    color: #ED702D!important;
-    font-weight: 500;
-  }
-  .rate{
-    color: #FFBB00!important;
-  }
-  .deposit,.card-details p{
-    color: #A5A7AF;
-  }
+.discount,
+.rate-reviews {
+  color: #ED702D !important;
+  font-weight: 500;
+}
 
-  .stars svg {
-    width: 20px;
-    fill: #FFBB00;
-  }
+.rate {
+  color: #FFBB00 !important;
+}
+
+.deposit,
+.card-details p {
+  color: #A5A7AF;
+}
+
+.stars svg {
+  width: 20px;
+  fill: #FFBB00;
+}
+.heart{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(248, 248, 248, 0.342);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}

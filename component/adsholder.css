@@ -1,0 +1,62 @@
+
+.adsholderCard{
+
+  height: 150px;
+  border-radius: 20px;
+  background-image: url('../img/Jal-assets/Pictures/johnathan-macedo-4NQEvxW2_4w-unsplash.jpg');
+  display: inline;
+  background-size: cover;
+ 
+}
+
+.adsholder img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+}
+.adsholder h1{
+  position: absolute;
+  color: white;
+}
+.adsholderContainer{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: auto;
+  
+  height: 300px;
+ 
+}
+.adssss::-webkit-scrollbar {
+display: none;
+}
+.adssss{
+position: relative;
+overflow-x: scroll;
+overflow-y: hidden;
+}
+
+.adsholderCard h1{
+padding: 0;
+margin: 0;
+color: white;
+
+}
+@media (min-width: 576px) { 
+  .adsholderCard{
+    height: 200px
+  }
+ }
+ @media (min-width: 768px) { 
+  .adsholderCard{
+    height: 250px
+  }
+  }
+
+  @media (min-width: 992px) { 
+
+   }
+
+   @media (min-width: 1200px) { 
+
+   }
