@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./component/UserCheckInComponent.css">
     <link rel="stylesheet" href="./component/footer.css">
     <link rel="stylesheet" href="./component/filterCardComponent.css">
+    <link rel="stylesheet" href="./component/FilterMenu.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Jaliz Homepage</title>
@@ -123,14 +124,52 @@
           
         </section>
           <!-- announecement Container -->
+          <!-- featured Container -->
+        <section class="featured container-fluid p-0 pt-lg-4">
+          <!-- menu -->
+          <section class="menu-nav d-flex justify-content-between align-items-center px-2">
+              <h4 class="menu-title">Featured Resorts</h4>
+              <h4 class="menu-btn"> View All</h4>
+          </section>
+           <!-- menu -->
+             <!-- featured wrapper -->
+             <section class="announcementCard-wrapper">
 
+             </section>
+            
+             <!-- featured wrapper -->
+
+          
+        </section>
+          <!-- announecement Container -->
+        <section class="filter-con container-fluid p-0 pt-lg-4">
+          <h1 class="pt-5 d-none d-lg-block">Resorts near your Location</h1>
+          <p class="d-none d-lg-block">You can choose to filter the results below by city</p>
+          <!-- filter menu -->
+          <section class="d-none d-md-block filtermenu-con text-center p-2">
+            <h5>Filter By City</h5>
+            <section class="container filter-menu d-flex justify-content-between align-items-center p-2">
+              <button class="filterBtn reset">RESET</button>
+              <section class="d-flex align-items-center position-relative">
+                <svg class="filterMenuImg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 33"><path d="M15,0A12.253,12.253,0,0,0,3,12.464c0,9.767,10.872,19.851,11.335,20.274a.98.98,0,0,0,1.331,0C16.128,32.315,27,22.231,27,12.464A12.253,12.253,0,0,0,15,0Zm0,19.25a6.781,6.781,0,0,1-6.667-6.875A6.781,6.781,0,0,1,15,5.5a6.781,6.781,0,0,1,6.667,6.875A6.781,6.781,0,0,1,15,19.25Z" transform="translate(-3)" fill="#8B8F9F"/></svg>
+                <section class="filterBtn near">Resorts near my location</section>
+              </section>
+              <button class="filterBtn active">Aseer</button>
+              <button class="filterBtn">Riyadh</button>
+              <button class="filterBtn">Makkah</button>
+              <button class="filterBtn">Saudi</button>
+              <button class="filterBtn">Israel</button>
+            </section>
+        </section>
+           <!-- filter menu -->
+        </section>
 
           
           
           <!-- filter-grid -->
           <section class="container-fluid p-0 m-0">
             <section class="h-auto row justify-content-center alig p-1 m-0">
-                <section   class="d-flex   p-1 py-lg-3 h-auto  container align-items-center justify-content-center col-sm-6 col-md-6 col-lg-4">
+                <section   class="d-flex py-sm-2  p-1 py-lg-3 h-auto  container align-items-center justify-content-center col-sm-6 col-md-6 col-lg-4">
                 
                   <section class="filterCard card">
                     <img class="filterCardImg card-img-top" src="./img/Jal-assets/Pictures/cheesebomb-burgers-at-maxwells-3.jpg"
@@ -186,7 +225,7 @@
                       <p class="rate-reviews">1k Reviews</p>
                   </section>
                 </section>
-                <section   class="d-flex py-sm-2  p-1 py-lg-3 h-auto  container align-items-center justify-content-center col-sm-6 col-md-6 col-lg-4">
+                <section   class="d-flex py-sm-2   p-1 py-lg-3 h-auto  container align-items-center justify-content-center col-sm-6 col-md-6 col-lg-4">
                 
                   <section class="filterCard card">
                     <img class="filterCardImg card-img-top" src="./img/Jal-assets/Pictures/cheesebomb-burgers-at-maxwells-3.jpg"

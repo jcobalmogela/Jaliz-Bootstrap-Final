@@ -1,0 +1,33 @@
+.filterMenuImg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    left: 5%;
+   
+  }
+  .filterBtn{
+    width: 200px;
+    background-color: #E4E8EF;
+    color: #8B8F9F;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+  }
+  .near{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+  }
+  .active{
+    background: #ed702d4f;
+    color: #ED702D;
+  }
+  .reset{
+    color: #606EA5;
+  }
