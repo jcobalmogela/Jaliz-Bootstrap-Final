@@ -34,7 +34,7 @@ header{
   position: absolute;
   bottom: 0;
 right: 0;
-  height: 400px;
+  height: 500px;
 
 }
 
@@ -158,6 +158,18 @@ right: 0;
     width: 500px!important;
     font-size: 25px;
   }
+  .header-title{
+    font-size: 2.5rem;
+  }
+  .header-logo{
+    position: absolute;
+    bottom: 0;
+  right: 0;
+    height: 400px;
+  
+  }
+  
+ 
  }
 
  @media (min-width: 1200px) { 
@@ -170,5 +182,17 @@ right: 0;
     color: #1d1d1d!important;
     width: 500px!important;
   }
+  .header-title{
+    font-size: 3rem;
+  }
+  .header-logo{
+    position: absolute;
+    bottom: 0;
+  right: 0;
+    height: 500px;
+  
+  }
+  
+ 
 
   }
