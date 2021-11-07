@@ -4,8 +4,9 @@
 .nav-link{
     color:#1d1d1d!important;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px!important;
     letter-spacing: 1px;
+    margin-left: 10px;
 }
 .selectLang{
     background:none;
