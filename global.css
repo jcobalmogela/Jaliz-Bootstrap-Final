@@ -6,7 +6,7 @@
   
   }
   body{
-    font-family: 'Larsseit'!important;
+   
    
   }
   
@@ -29,9 +29,35 @@ header{
     border-radius: 40px;
     background-color:#0000000D ;
 }
+
+.resortCon::before{
+  
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    vertical-align: middle;
+    width: 50%;
+    top: 50%;
+  
+}
+.resort-title{
+  border: 1px solid #E5E5E5;
+  width: 300px;
+  border-radius: 40px;
+  color: #ED702D!important;
+  font-size: 20px;
+  padding: 15px!important;
+ 
+
+}
+
+
 .header-title{
   font-size: 3rem;
 }
+
 .menu-title{
   font-weight: bold;
 }
@@ -51,7 +77,31 @@ header{
 .filter-con p{
   color: #A5A5A5;
 }
+/* location */
+.pickLocationBtn{
 
+  height: 50px;
+  width: 100%;
+  border-radius: 50px;
+  background: none;
+  border: 2px solid #E3E3E3;
+}
+.pickBtn{
+  background-color:#ED702D ;
+  color: white;
+  border: none;
+}
+.pickBtn::before{
+  content: '';
+  background-image: url('./img/SVG_new/SVG/Location_White.svg');
+  height: 20px;
+  position: absolute;
+  display: block;
+  background-size: 23px 23px;
+  height: 23px;
+  width: 23px;
+  left: 15%;
+}
 
 
 .ads{
@@ -93,12 +143,23 @@ header{
    
     font-size: 22px;
   }
+  .resort-title{
+    border: none;
+    color: #1d1d1d!important;
+    width: 500px!important;
+    font-size: 25px;
+  }
  }
 
  @media (min-width: 1200px) { 
   .menu-title,.menu-btn{
    
     font-size: 23px;
+  }
+  .resort-title{
+    border: none;
+    color: #1d1d1d!important;
+    width: 500px!important;
   }
 
   }

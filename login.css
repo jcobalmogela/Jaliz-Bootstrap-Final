@@ -1,0 +1,69 @@
+.login{
+    height: 100vh; 
+}
+.loginForm-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.login-background{
+    width: 100%; ;
+    background:url('./img/Jal-assets/Pictures/Attachment_1606887312.jpeg');
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+   
+    
+  
+}
+.login-background img{
+    width: 200px;
+    position: relative;
+    top: 5%;
+    
+}
+.logo{
+    width: 300px;
+}
+
+.ellipse1{
+    position: absolute;
+    bottom: 75%;
+    left:75%;
+    width: 200px;
+    z-index: -1;
+    width: 500px;
+}
+.ellipse2{
+    position: absolute;
+  bottom: -15%;
+  left:-10%;
+  
+    z-index: 999;
+    width: 250px;
+  
+
+}
+@media(min-width:992px){
+    .login-background{
+        width: 60%; ;
+        background:url('./img/Jal-assets/Pictures/Attachment_1606887312.jpeg');
+        background-size: cover;
+        display: flex;
+        position: relative;
+        text-align: unset;
+       justify-content: center;
+      
+    }
+    .login-background img{
+        width: 200px;
+        position: relative;
+        top: -23%;
+        
+     
+
+        
+    }
+}

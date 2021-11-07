@@ -1,0 +1,64 @@
+.login-form{
+    width: 100%;
+    position: relative;
+    z-index: 99;
+  }
+  .login-form img{
+    width: 200px;
+  }
+  .login-btn button{
+    background-color:#ED702D ;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    
+  }
+  .login-btn button:nth-child(2){
+      background-color: white;
+      color: orange;
+  }
+  .forgot-password{
+    color: #000000;
+    font-weight: 400;
+  }
+  .form-group{
+    position: relative;
+  }
+  .form-group input{
+    border: 1px solid #E3E3E3;
+    font-size: 16px;
+    height: 50px;
+    font-weight: 400;
+   
+  }
+  .user-key{
+    position: absolute;
+    left: 3%;
+    width: 20px;
+    height: 20px;
+    top: 27%;
+    z-index: 1;
+  }
+  .login-control{
+    color: #A5A5A5!important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  .eye{
+    position: absolute;
+    top: 27%;
+    right: 3%;
+  }
+
+ @media(min-width:992px){
+    .login-btn button:nth-child(2){
+        background-color: #ED702D;
+        color: white;
+    }
+    .login-form{
+      width: 600px;
+      position: relative;
+    }
+ }
