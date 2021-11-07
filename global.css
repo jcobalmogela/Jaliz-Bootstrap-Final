@@ -30,7 +30,7 @@ header{
     background-color:#0000000D ;
 }
 
-.resortCon::before{
+/* .resortCon::before{
   
     background-color: #000;
     content: "";
@@ -41,7 +41,7 @@ header{
     width: 50%;
     top: 50%;
   
-}
+} */
 .resort-title{
   border: 1px solid #E5E5E5;
   width: 300px;
