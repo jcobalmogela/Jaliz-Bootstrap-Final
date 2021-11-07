@@ -28,7 +28,16 @@ header{
     height: 80vh;
     border-radius: 40px;
     background-color:#0000000D ;
+    position: relative;
 }
+.header-logo{
+  position: absolute;
+  bottom: 0;
+right: 0;
+  height: 400px;
+
+}
+
 
 /* .resortCon::before{
   
